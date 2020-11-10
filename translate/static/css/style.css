@@ -1,0 +1,35 @@
+#bg-image {
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+body {
+	color: black;
+	font-family: 'Fira Sans', sans-serif;
+	background-image: url("/static/images/background.png");
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+ul {
+	list-style: none;
+}
+
+#logo {
+	width: 181px;
+	height: 92px;
+	opacity: 2.0;
+}
+
+#content {
+    display: block;
+}
